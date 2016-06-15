@@ -29,4 +29,50 @@
  *  VerticalAlignment =VerticalAlignmentBottom 居下
  */
 + (MYLab *)CreatMyLab:(CGRect)frame :(VerticalAlignment)VerticalAlignment;
+
+
+
+/**
+ *  0:普通带边框UILabel
+ *  1:带虚线边框UILabel
+ */
++ (UILabel*) CreatMyLab:(CGRect)frame :(NSString *)str :(UIColor *)bgcolor :(UIColor *)linecolor :(int)Type;
+
+/**
+ *  0:普通带边框UIButton
+ *  1:带虚线边框UIButton
+ */
++ (UIButton*) CreatMyBtn:(CGRect)frame :(NSString *)str :(UIColor *)bgcolor :(UIColor *)linecolor :(int)Type;
+
+
+/**
+ *  0:fontello_UILabel
+ */
++ (UILabel*) CreatFontelloLab:(CGRect)frame :(NSString *)str :(UIFont *)font :(UIColor *)fontColor :(int)Type;
+
+/**
+ *  fontello_UIButton
+ */
++ (UIButton*) CreatFontelloBtn:(CGRect)frame :(NSString *)str :(UIFont *)font :(UIColor *)fontColor :(int)Type;
+
+
+
+/**
+ *  带小红点的UIButton
+ */
+
++ (void)UIButtonShowBadgeOnItemIndex:(id)sender; //显示小红点
++ (void)UIButtonHideBadgeOnItemIndex:(id)sender; //隐藏小红点
+
+/**
+ *  带小红点的UITabBar
+ */
+
++ (void)UITabBarShowBadgeOnItemIndex:(id)sender :(int)index :(int)Num;   //UITabBar显示小红点
++ (void)UITabBarHideBadgeOnItemIndex:(id)sender :(int)index :(int)Num;  //UITabBar隐藏小红点
+
+
+
+
+
 @end
