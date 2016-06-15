@@ -3,7 +3,7 @@
 
 #PDFramework使用（持续更新中）
 导入通用库 工程设置  TARGETS-->Embedded Binaries  点击下面加号 新增PDFramework.framework
-使用的时候 只需要导入 #import <PDFramework/Header.h>
+使用的时候 只需要导入#import  PDFramework/Header.h （ps：尖括号引用）
 
 #1.PDObject
 	使用方法：例如设置颜色->self.view.backgroundColor = [[PDObject getInstance] colorWithHexString:@"ff6600"];
