@@ -42,5 +42,17 @@
 	注意事项：需要在自己的工程目录下导入fontello文件夹  在工程的info.plist文件中新增Fonts Provided by application，TYPE为Array,并新增一项Value为Fontello.ttf
 	
 	
-	
+#防止按钮重复点击的方法
+	UIButton * button = [UIButton buttonWithType:UIButtonTypeSystem];
+	button.frame = CGRectMake(50, 100, 100, 50);
+	button.backgroundColor = [UIColor redColor];
+	[button setTitle:@"连续点击" forState:UIControlStateNormal];
+	[button addTarget:self action:@selector(buttonAction) forControlEvents:UIControlEventTouchUpInside];
+	[self.view addSubview:button];
+	button.timeInterVal = 3;
+	-(void)buttonActio{
+		 _clickNum += 1;
+		NSLog(@"点击了%ld下",(long)_clickNum)
+	}
+    
 
