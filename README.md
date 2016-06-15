@@ -39,4 +39,8 @@
 	使用方法：
 	PDShowStars *sView = [[PDShowStars alloc]initWithFrameForCenter:CGRectMake(150, 400, 100, 20) numOfFloat:5.00 :[UIColor blackColor]];
 	[self.view addSubview:sView];
-	注意事项：暂无
+	注意事项：需要在自己的工程目录下导入fontello文件夹  在工程的info.plist文件中新增Fonts Provided by application，TYPE为Array,并新增一项Value为Fontello.ttf
+	
+	
+	
+
