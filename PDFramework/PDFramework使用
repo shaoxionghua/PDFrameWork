@@ -54,9 +54,7 @@ PDFramework使用（持续更新中）
 5.PDUIButton+Extension
     使用方法：
     3种按钮创建方法
-        UIButton *test = [UIButton LL_buttonCustomButtonFrame:CGRectMake(10, 180, 30, 30) normalImageString:@"test" actionSel:^(UIButton *btn){
-        NSLog(@"hehe");
-    }];
+
     UIButton *test = [UIButton PD_ButtonCustom:CGRectMake(10, 180, 80, 30) title:@"test" currentTtileColor:[UIColor blueColor] actionSel:^(UIButton *btn){
         NSLog(@"hehe");
     }];
