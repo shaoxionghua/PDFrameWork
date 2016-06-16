@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "MYLab.h"
+#import "PDTagsView.h"
+
 
 @interface PDWidget : NSObject
 
@@ -70,6 +72,17 @@
 
 + (void)UITabBarShowBadgeOnItemIndex:(id)sender :(int)index :(int)Num;   //UITabBar显示小红点
 + (void)UITabBarHideBadgeOnItemIndex:(id)sender :(int)index :(int)Num;  //UITabBar隐藏小红点
+
+
+/**
+ *  创建标签
+ */
+
++ (PDTagsView *)CreatPDTagsView:(CGRect)frame :(NSArray *)dataSource :(UIColor *)color;
+
+
+
+
 
 
 

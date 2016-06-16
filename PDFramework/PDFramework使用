@@ -38,3 +38,13 @@ PDFramework使用（持续更新中）
 	    PDShowStars *sView = [[PDShowStars alloc]initWithFrameForCenter:CGRectMake(150, 400, 100, 20) numOfFloat:5.00 :[UIColor blackColor]];
     	[self.view addSubview:sView];
     注意事项：暂无
+
+5.PDTagsView
+	使用方法：
+	    NSArray *arr = [NSArray arrayWithObjects:@"大家",@"你是什么",@"是不是呢",@"想要什么呢",@"吃大餐了哦哦哦",@"技术部的大牛",@"商场部的技术",@"全体人员注意了。开始了", nil];
+    	UIView *tags = [PDWidget CreatPDTagsView:CGRectMake(0, 300, 300, 100) :arr :[UIColor orangeColor]];
+    	[self.view addSubview:tags];
+    注意事项：暂无
+
+
+    
