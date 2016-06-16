@@ -71,6 +71,18 @@
     [self.view addSubview:test];
     注意事项：暂无
     
+#7.PDUIImageView+Extension
+    使用方法：
+    2种UIImageView创建方法
+    UIImageView *im  =[UIImageView PD_CreateImageView:CGRectMake(200, 200, 100, 100) imageString:@"image5.jpg"];
+    UIImageView *im  =[UIImageView PD_CreateImageViewAction:CGRectMake(200, 200, 100, 100) imageString:@"image5.jpg" actionSel:^(UIButton *btn){
+        NSLog(@"良辰必有重谢");
+    }];
+    [self.view addSubview:im];
+
+    注意事项：暂无
+    
+    
 #防止按钮重复点击的方法
 	UIButton * button = [UIButton buttonWithType:UIButtonTypeSystem];
 	button.frame = CGRectMake(50, 100, 100, 50);
