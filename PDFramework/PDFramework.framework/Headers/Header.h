@@ -17,6 +17,7 @@
 #import "MYLab.h"//lab
 #import "PDTagsView.h"  //标签类
 #import "PDUIButton+Extension.h"//按钮扩展类
+#import "PDUIImageView+Extension.h"
 
 #endif /* Header_h */
 

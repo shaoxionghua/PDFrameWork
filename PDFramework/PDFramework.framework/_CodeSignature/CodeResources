@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Header.h</key>
 		<data>
-		W77p1Tf5nUgdlPhQEX4v6qspTsA=
+		+o+ia0tzIbUbsDc9S88v7jPhcts=
 		</data>
 		<key>Headers/MYLab.h</key>
 		<data>
@@ -32,6 +32,10 @@
 		<data>
 		iOX2awfzTx9GRVOk//LCx96FCfk=
 		</data>
+		<key>Headers/PDUIImageView+Extension.h</key>
+		<data>
+		n53kdXJi1+MR8+vBg6fZFipUmK8=
+		</data>
 		<key>Headers/PDWidget.h</key>
 		<data>
 		jFaHDul3Vn4QipH9BWoE1LTrgO8=
@@ -47,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			W77p1Tf5nUgdlPhQEX4v6qspTsA=
+			+o+ia0tzIbUbsDc9S88v7jPhcts=
 			</data>
 			<key>hash2</key>
 			<data>
-			ySN91bArMOnhEAKRyUFMorZlXk49nynqgBTxNVF8XBw=
+			LWNEOKuPwbiBcId520Ccl8EHBXdqYYo1zwHWzCvj/Fg=
 			</data>
 		</dict>
 		<key>Headers/MYLab.h</key>
@@ -118,6 +122,17 @@
 			<key>hash2</key>
 			<data>
 			UKJsjANtRtZFBwh0zygFViMN5UheZm9xBxLypebahoY=
+			</data>
+		</dict>
+		<key>Headers/PDUIImageView+Extension.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			n53kdXJi1+MR8+vBg6fZFipUmK8=
+			</data>
+			<key>hash2</key>
+			<data>
+			x5Snfd0tcodrPG0aDYbBysbY6mCo8KXMGaZnUYQ6KLY=
 			</data>
 		</dict>
 		<key>Headers/PDWidget.h</key>
