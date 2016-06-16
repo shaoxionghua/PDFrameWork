@@ -25,16 +25,6 @@
 + (UIButton *)CreatImageButton:(CGRect)frame :(UIImage *)image :(NSString *)title;
 
 /**
- *  创建UILabel 文字内容居中或者靠上或者靠下显示,其他lab的属性都不变
- *  VerticalAlignment =VerticalAlignmentTop 居上
- *  VerticalAlignment =VerticalAlignmentMiddle 居中（默认）
- *  VerticalAlignment =VerticalAlignmentBottom 居下
- */
-+ (MYLab *)CreatMyLab:(CGRect)frame :(VerticalAlignment)VerticalAlignment;
-
-
-
-/**
  *  0:普通带边框UILabel
  *  1:带虚线边框UILabel
  */
@@ -79,6 +69,14 @@
  */
 
 + (PDTagsView *)CreatPDTagsView:(CGRect)frame :(NSArray *)dataSource :(UIColor *)color;
+
+/**
+ *  创建UILabel 文字内容居中或者靠上或者靠下显示,其他lab的属性都不变
+ *  VerticalAlignment =VerticalAlignmentTop 居上
+ *  VerticalAlignment =VerticalAlignmentMiddle 居中（默认）
+ *  VerticalAlignment =VerticalAlignmentBottom 居下
+ */
++ (MYLab *)CreatMyLab:(CGRect)frame :(VerticalAlignment)VerticalAlignment;
 
 
 

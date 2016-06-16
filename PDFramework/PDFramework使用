@@ -49,10 +49,29 @@ PDFramework使用（持续更新中）
     	}
     	*/
     	[self.view addSubview:tags];
-
-
-
     注意事项：暂无
+
+5.PDUIButton+Extension
+    使用方法：
+    3种按钮创建方法
+        UIButton *test = [UIButton LL_buttonCustomButtonFrame:CGRectMake(10, 180, 30, 30) normalImageString:@"test" actionSel:^(UIButton *btn){
+        NSLog(@"hehe");
+    }];
+    UIButton *test = [UIButton PD_ButtonCustom:CGRectMake(10, 180, 80, 30) title:@"test" currentTtileColor:[UIColor blueColor] actionSel:^(UIButton *btn){
+        NSLog(@"hehe");
+    }];
+    
+    UIButton *test = [UIButton PD_ButtonImage:CGRectMake(10, 180, 80, 30) normalImageString:@"ApplePayBTN_36pt__black_logo_.png" actionSel:^(UIButton *btn){
+        NSLog(@"hehe");
+    }];
+    
+    UIButton *test = [UIButton PD_ButtonImageString:CGRectMake(10, 180, 80, 30)  title:@"Apple Pay" currentTtileColor:[UIColor blueColor] normalImageString:@"ApplePayBTN_36pt__black_logo_.png" actionSel:^(UIButton *btn){
+                NSLog(@"hehe");
+    }];
+    
+    [self.view addSubview:test];
+    注意事项：暂无
+
 
 
     
