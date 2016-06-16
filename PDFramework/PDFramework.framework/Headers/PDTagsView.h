@@ -16,6 +16,13 @@
  *  设置单一颜色
  */
 @property (nonatomic) UIColor *PDSignalTagColor;
+
+/**
+ *  开放标签点击功能
+ */
+@property (nonatomic, retain)  NSMutableArray *MyTags;
+
+
 /**
  *  标签 文本赋值
  */

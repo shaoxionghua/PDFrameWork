@@ -14,9 +14,9 @@
 #import "PDWidget.h" //控件类
 #import "PDToast.h"  //弹窗提示框
 #import "PDShowStars.h" //评分星星类
-#import "MYLab.h"
-#import "PDTagsView.h"
-#import "UIButton+UIButtonImageWithLable.h"
+#import "MYLab.h"//lab
+#import "PDTagsView.h"  //标签类
+#import "UIButton+UIButtonImageWithLable.h"//带图片的按钮
 
 #endif /* Header_h */
 
