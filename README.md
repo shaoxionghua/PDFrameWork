@@ -41,6 +41,17 @@
 	[self.view addSubview:sView];
 	注意事项：需要在自己的工程目录下导入fontello文件夹  在工程的info.plist文件中新增Fonts Provided by application，TYPE为Array,并新增一项Value为Fontello.ttf
 	
+#5.PDTagsView
+	使用方法：
+	    NSArray *arr = [NSArray arrayWithObjects:@"大家",@"你是什么",@"是不是呢",@"想要什么呢",@"吃大餐了哦哦哦",@"技术部的大牛",@"商场部的技术",@"全体人员注意了。开始了", nil];
+	    PDTagsView *tags = [PDWidget CreatPDTagsView:CGRectMake(0, 300, 300, 100) :arr :[UIColor orangeColor]];
+	    /* 这里如果需要对标签有点击操作的话可以自定义点击方法，需要的属性可以打印btn属性对应的值看看
+	    for (UIButton *btn in tags.MyTags) {
+	    [btn addTarget:self action:@selector(btnIndex:) forControlEvents:UIControlEventTouchUpInside];
+	    }
+	    */
+	    [self.view addSubview:tags];
+	注意事项：暂无	
 	
 #防止按钮重复点击的方法
 	UIButton * button = [UIButton buttonWithType:UIButtonTypeSystem];
