@@ -13,9 +13,9 @@
 #2.PDWidget
 	使用方法：
 	1）.新建带图片的按钮
-	UIButton *btn = [self CreatImageButton:CGRectMake(100, 100, 0, 0) :[UIImage imageNamed:@"ApplePayBTN_36pt__black_logo_.png"] :@"苹果支付"];
-	[btn addTarget:self action:@selector(test:) forControlEvents:UIControlEventTouchUpInside];
-	[self.view addSubview:btn];
+	UIButton*test = [UIButtonPD_ButtonImageString:CGRectMake(10,180,80,30)title:@"Apple Pay"currentTtileColor:[UIColorblueColor]normalImageString:@"ApplePayBTN_36pt__black_logo_.png"actionSel:^(UIButton*btn){        
+	NSLog(@"hehe");}];
+	[self.viewaddSubview:test];
 	2）.新建带阴影的view
 	UIView *view1 = [PDWidget CreatShadwView:CGRectMake(20, 120, 40, 40)];
 	[self.view addSubview:view1];
